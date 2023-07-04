@@ -1,0 +1,13 @@
+.favourite-btn {
+    position: absolute;
+}
+
+.grid-btn:hover {
+    background-color: #E7B10A;
+    cursor: pointer;
+}
+
+.grid-btn:hover::after {
+    background-color: #E7B10A;
+    cursor: pointer;
+}

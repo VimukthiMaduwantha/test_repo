@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+import { Route, Routes } from 'react-router-dom';
+import ViewMenu from './Pages/ViewMenu';
+import Table from './Pages/Table';
+import Order from './Pages/Order';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello wolrd</h1>
-      <h2>Heecjdhc</h2>
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route exact path='/' element={<ViewMenu />} />
+        <Route exact path='/orderAtTable' element={<Table />} />
+        <Route exact path='/orderOnline' element={<Order />} />
+      </Routes>
+    </>
   );
 }
 
