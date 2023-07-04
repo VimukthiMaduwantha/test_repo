@@ -6,7 +6,7 @@ import Payment from '../Components/Payment';
 function Order() {
     return (
         <>
-            <Container>
+            <Container style={{ marginBottom: '50px' }}>
                 <CartCard />
                 <CartCard />
                 <CartCard />
