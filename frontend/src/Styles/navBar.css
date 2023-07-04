@@ -22,6 +22,9 @@ li {
     height: 10vh;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
     background-color: #1A120B;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 .nav-links {
@@ -58,7 +61,7 @@ li {
 .shoppingCart {
     border: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     background: none;
 }
 

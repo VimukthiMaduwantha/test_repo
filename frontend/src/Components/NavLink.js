@@ -6,26 +6,29 @@ import '../Styles/navBar.css'
 import { FaBars } from "react-icons/fa"
 import { FaShoppingCart } from "react-icons/fa"
 import { ImCross } from "react-icons/im"
+import { IconButton } from '@mui/material';
 
 function NavLink() {
     const [Mobile, setMobile] = useState(false)
     return (
         <>
             <nav className='navbar'>
-                <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
+                <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)} >
                     <Link to='/' className='home'>
                         <li>View Menu</li>
                     </Link>
                     <Link to='/orderAtTable' className='about'>
                         <li>Order At Table</li>
                     </Link>
-                    <Link to='/orderOnline' className='services'>
+                    <Link to='/orderOnline' className='services' >
                         <li>Order Online</li>
                     </Link>
                 </ul>
-                <button className='shoppingCart'>
-                    <FaShoppingCart style={{ color: 'white' }} />
-                </button>
+                <Link to='/cart'>
+                    <button className='shoppingCart' >
+                        <FaShoppingCart style={{ color: 'white' }} />
+                    </button>
+                </Link>
                 <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
                     {Mobile ? <ImCross style={{ color: 'white' }} /> : <FaBars style={{ color: 'white' }} />}
                 </button>
