@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 function TableNav() {
     return (
         <>
-            <div style={{ backgroundColor: 'black'/* , paddingTop: '5px', paddingBottom: '5px' */, paddingLeft: '10px' }} >
+            <div style={{ backgroundColor: 'black', paddingLeft: '10px' }} >
                 <Grid container spacing={1}>
                     <Grid item xs={12} md={6} style={{ display: 'flex', justifyContent: 'center'/* , gap: '8px' */ }}>
                         <Grid className='grid-btn' item xs={3} style={{ marginRight: '15px', display: 'block', paddingTop: '2px' }}>
@@ -23,7 +23,7 @@ function TableNav() {
                             </a>
                         </Grid>
                         <Grid className='grid-btn' item xs={3} style={{ marginRight: '15px', display: 'block', paddingTop: '2px' }}>
-                            <a href='/burgers'>
+                            <a href='/orderAtTable'>
                                 <div style={{ color: 'white', display: 'flex', justifyContent: 'center' }}><PiHamburgerFill /></div>
                                 <div style={{ color: 'white', display: 'flex', justifyContent: 'center', fontSize: '10px' }}>Burgers</div>
                             </a>
