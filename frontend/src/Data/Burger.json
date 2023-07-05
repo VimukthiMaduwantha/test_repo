@@ -1,62 +1,144 @@
 [
     {
         "image": "assets/menu-items/b3.jpg",
-        "name": "Food name",
-        "price": "$9.18"
+        "name": "hasjdh",
+        "price": "$9.18",
+        "description": "In the vast expanse of existence, countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b2.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b3.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b2.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Expanse of existence, countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment."
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "In the vast expanse of existence, countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b3.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "The lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment."
     },
     {
         "image": "assets/menu-items/b2.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Vast expanse of existence, countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     },
     {
         "image": "assets/menu-items/b5.jpg",
         "name": "Food name",
-        "price": "$9.18"
+        "price": "$9.18",
+        "description": "Oof existence, countless stories unfold, intertwining the lives of beings who seek meaning and connection. From the smallest atom to the boundless cosmos, intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word, thought, and action reverberates, shaping our collective journey towards understanding and enlightenment.",
+        "ingredients": [
+            "Hamburger buns",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Pickles"
+        ]
     }
 ]

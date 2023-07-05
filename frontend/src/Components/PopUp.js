@@ -1,24 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import { Modal, ModalBody, ModalHeader } from 'reactstrap';
 import b1 from '../Images/burger1.jpeg'
 import { Box, Card, CardActionArea, CardContent, Grid, Typography } from '@mui/material'
 import { Button, Form } from 'react-bootstrap';
+import { FoodContext } from '../Context/FoodContext';
 
-
-function PopUp() {
+function PopUp({ isOpen, toggle }) {
     const [modal, setModal] = useState(false);
+    const { food } = useContext(FoodContext);
 
     return (
         <>
             <div>
-                <Modal size='lg' isOpen={modal} toggle={() => setModal(!modal)} >
-                    <ModalHeader toggle={() => setModal(!modal)} />
+                <Modal size='lg' isOpen={isOpen} toggle={toggle} >
+                    <ModalHeader toggle={toggle} />
                     <ModalBody>
                         <Grid container spacing={2}>
                             <Grid item xs={12} md={4} >
                                 <Card>
                                     <img
-                                        src={b1}
+                                        src={food.image}
                                         alt='burger1'
                                         width='100%'
                                         height='auto'
@@ -29,22 +30,21 @@ function PopUp() {
                                 <Card>
                                     <CardContent>
                                         <Typography>
-                                            Food name here
+                                            {food.name}
                                         </Typography>
                                     </CardContent>
                                     <CardContent>
                                         <Typography>
-                                            In the vast expanse of existence, countless stories unfold, intertwining the lives
-                                            of beings who seek meaning and connection. From the smallest atom to the boundless cosmos,
-                                            intricate patterns emerge, reflecting the beauty of creation. In this wondrous tapestry, every word,
-                                            thought, and action reverberates, shaping our
-                                            collective journey towards understanding and enlightenment.
+                                            {food.description}
                                         </Typography>
-                                        <Typography>
-                                            ingredients
-                                            ingredients
-                                            ingredients
-                                            ingredients
+                                        <br />
+                                        <Typography style={{ display: 'flex', justifyContent: 'flex-start' }}>
+                                            <span>Ingrdients : </span>
+                                            <div>
+                                                {food.ingredients.map((ing, index) => (
+                                                    <p key={index}>{ing}</p>
+                                                ))}
+                                            </div>
                                         </Typography>
                                     </CardContent>
                                     <CardContent>
@@ -65,7 +65,7 @@ function PopUp() {
                             </Grid>
                             <Grid item xs={3} md={2} >
                                 <Typography>
-                                    Price/ <span style={{ color: '#E7B10A' }}>$20.24</span>
+                                    Price/ <span style={{ color: '#E7B10A' }}>{food.price}</span>
                                 </Typography>
                             </Grid>
                         </Grid>
